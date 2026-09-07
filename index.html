@@ -1194,7 +1194,7 @@
         <div class="kpi-card">
           <div class="kpi-tit">Obras em Carteira</div>
           <div id="kpi-total-obras" class="kpi-num">8</div>
-          <div class="kpi-sub">Porto Ferraz e Vega</div>
+          <div class="kpi-sub">Porto Ferraz, ConstruCompany e Conx</div>
         </div>
         <div class="kpi-card kpi-prazo">
           <div class="kpi-tit">Obras no Prazo</div>
@@ -1220,7 +1220,8 @@
           <select id="filter-construtora" class="filter-select">
             <option value="">Todas Construtoras</option>
             <option value="Porto Ferraz">Porto Ferraz</option>
-            <option value="Vega">Vega</option>
+            <option value="ConstruCompany">ConstruCompany</option>
+            <option value="Conx">Conx</option>
           </select>
         </div>
         <div class="filter-item">
@@ -1229,7 +1230,6 @@
             <option value="">Todos Coordenadores</option>
             <option value="Luciana Fragoso">Luciana Fragoso</option>
             <option value="Ingrid Souza">Ingrid Souza</option>
-        
           </select>
         </div>
         <div class="filter-item" style="flex: 2 1 220px;">
@@ -1269,7 +1269,7 @@
         <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:0.5rem;">
           <div>
             <h2 id="detail-obra-title" style="margin:0 0 0.25rem; font-size:1.35rem; color:#1a5276;">Park Mariana</h2>
-            <div id="detail-obra-addr" style="font-size:0.8rem; color:#64748b;">Rua das Hortênsias, 450 - Vila Mariana, SP</div>
+            <div id="detail-obra-addr" style="font-size:0.8rem; color:#64748b;">Rua Madre Cabrini x Rua Sena Madureira - Vila Mariana, SP</div>
           </div>
           <span id="detail-obra-status-pill" class="status-badge status-no-prazo">No prazo</span>
         </div>
@@ -1411,7 +1411,7 @@
   <div id="modal-photos" class="modal-backdrop">
     <div class="modal-sheet" style="max-width: 680px;">
       <div class="modal-header">
-        <h3>📷 Diário Fotográfico & Vistorias</h3>
+        <h3>📷 Relatório Fotográfico & Vistorias</h3>
         <button class="modal-close-btn" data-close="modal-photos">&times;</button>
       </div>
       <div class="modal-body">
@@ -1708,7 +1708,7 @@
       {
         id: "park-mariana",
         name: "Park Mariana",
-        endereco: "Rua das Hortênsias, 450 - Vila Mariana, SP",
+        endereco: "Rua Madre Cabrini x Rua Sena Madureira - Vila Mariana, SP",
         entrega: "2026-12-15",
         construtora: "Porto Ferraz",
         coordenador: "Luciana Fragoso",
@@ -1719,10 +1719,10 @@
       {
         id: "aurora",
         name: "QG Vila Nova Conceição",
-        endereco: "Av. Paulista, 1200 - Bela Vista, SP",
-        entrega: "2025-10-30",
-        construtora: "Porto Ferraz",
-        coordenador: "Maria Santos",
+        endereco: "Rua Silvânia, 159 - Vila Nova Conceição, SP",
+        entrega: "2027-06-30",
+        construtora: "Conx",
+        coordenador: "Luciana Fragoso",
         pavCount: 15,
         status: "No prazo",
         progress: 42
@@ -1730,66 +1730,66 @@
       {
         id: "bosque-verde",
         name: "QG Vila Olímpia",
-        endereco: "Rua das Acácias, 88 - Moema, SP",
-        entrega: "2026-03-20",
+        endereco: "Rua Cabo Verde - Vila Olímpia, SP",
+        entrega: "2027-04-30",
         construtora: "Porto Ferraz",
         coordenador: "Luciana Fragoso",
-        pavCount: 12,
+        pavCount: 22,
         status: "Adiantada",
         progress: 65
       },
       {
         id: "cristalina",
         name: "QG Ferreira de Araújo",
-        endereco: "Alameda Santos, 310 - Cerqueira César, SP",
-        entrega: "2027-01-15",
+        endereco: "Rua Ferreira de Araújo, 890 - Pinheiros, SP",
+        entrega: "2027-08-30",
         construtora: "Porto Ferraz",
-        coordenador: "Pedro Costa",
-        pavCount: 18,
+        coordenador: "Ingrid Souza",
+        pavCount: 22,
         status: "No prazo",
         progress: 14
       },
       {
         id: "solar-norte",
         name: "QG Cardoso JK",
-        endereco: "Rua Voluntários da Pátria, 780 - Santana, SP",
-        entrega: "2025-08-10",
-        construtora: "Vega",
-        coordenador: "Ana Lima",
-        pavCount: 10,
+        endereco: "Avenida Cardoso de Melo, 1309 - Vila Olímpia, SP",
+        entrega: "2028-04-30",
+        construtora: "Porto Ferraz",
+        coordenador: "Luciana Fragoso",
+        pavCount: 28,
         status: "No prazo",
         progress: 88
       },
       {
         id: "monte-bianco",
         name: "QG Cardoso FL",
-        endereco: "Av. Braz Leme, 1540 - Santana, SP",
-        entrega: "2026-07-22",
-        construtora: "Vega",
-        coordenador: "Ana Lima",
-        pavCount: 16,
+        endereco: "Avenida Cardoso de Melo, 989 - Vila Olímpia, SP",
+        entrega: "2028-04-30",
+        construtora: "Porto Ferraz",
+        coordenador: "Luciana Fragoso",
+        pavCount: 28,
         status: "Atrasado",
         progress: 31
       },
       {
         id: "lago-azul",
         name: "Barô",
-        endereco: "Rua Cantareira, 400 - Centro Histórico, SP",
-        entrega: "2025-11-18",
-        construtora: "Vega",
-        coordenador: "Carlos Souza",
-        pavCount: 14,
+        endereco: "Rua Baronesa de Itu, 123 - Santa Cecília, SP",
+        entrega: "2026-11-30",
+        construtora: "ConstruCompany",
+        coordenador: "Ingrid Souza",
+        pavCount: 25,
         status: "No prazo",
         progress: 54
       },
       {
         id: "pinheiros",
         name: "QG Higienópolis",
-        endereco: "Rua dos Pinheiros, 920 - Pinheiros, SP",
-        entrega: "2026-09-30",
-        construtora: "Vega",
-        coordenador: "Pedro Costa",
-        pavCount: 20,
+        endereco: "Rua Jaguaribe, 474 - Santa Cecília, SP",
+        entrega: "2027-08-31",
+        construtora: "Conx",
+        coordenador: "Ingrid Souza",
+        pavCount: 22,
         status: "No prazo",
         progress: 19
       }
